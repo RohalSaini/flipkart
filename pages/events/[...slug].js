@@ -104,6 +104,7 @@
 // ++++++++++++++++++++++++++++
 import { Fragment } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 import { getFilteredEvents } from '../../helpers/api-util';
 import EventList from '../../components/events/event-list';
@@ -113,11 +114,19 @@ import ErrorAlert from '../../components/ui/error-alert';
 
 function FilteredEventsPage(props) {
   const router = useRouter();  
+  const header = (
+    <Head>
+        <title>Filtered Events</title>
+        <meta  name="description=" content={` Filtered: ${props.date.month}/${props.date.year}`}/>
+      </Head>
+  )
+
   if (
     props.hasError
   ) {
     return (
       <Fragment>
+        {header}
         <ErrorAlert>
           <p>Invalid filter. Please adjust your values!</p>
         </ErrorAlert>
@@ -133,6 +142,7 @@ function FilteredEventsPage(props) {
   if (!filteredEvents || filteredEvents.length === 0) {
     return (
       <Fragment>
+        {header}
         <ErrorAlert>
           <p>No events found for the chosen filter!</p>
         </ErrorAlert>
@@ -147,6 +157,7 @@ function FilteredEventsPage(props) {
 
   return (
     <Fragment>
+       {header}
       <ResultsTitle date={date} />
       <EventList items={filteredEvents} />
     </Fragment>

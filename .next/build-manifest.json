@@ -5,17 +5,18 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/hNLGFg6RsJepE1QiCLPbU/_buildManifest.js",
-    "static/hNLGFg6RsJepE1QiCLPbU/_ssgManifest.js",
-    "static/hNLGFg6RsJepE1QiCLPbU/_middlewareManifest.js"
+    "static/2T0FNwUNnr0xw4hS0qMf1/_buildManifest.js",
+    "static/2T0FNwUNnr0xw4hS0qMf1/_ssgManifest.js",
+    "static/2T0FNwUNnr0xw4hS0qMf1/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
+      "static/chunks/959-7aba83636184b6ed.js",
       "static/css/eb2ea963bc9ddff4.css",
-      "static/chunks/pages/index-9e45fcd33466af62.js"
+      "static/chunks/pages/index-1c55eb910e9b19af.js"
     ],
     "/_app": [
       "static/chunks/webpack-514908bffb652963.js",
@@ -34,22 +35,25 @@
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
+      "static/chunks/959-7aba83636184b6ed.js",
       "static/css/c4c8097db576a8be.css",
-      "static/chunks/pages/events-a56511b69fe1ce2f.js"
+      "static/chunks/pages/events-cca145863f027df1.js"
     ],
     "/events/[...slug]": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
+      "static/chunks/959-7aba83636184b6ed.js",
       "static/css/7a4bcbdc092f58ec.css",
-      "static/chunks/pages/events/[...slug]-dc1c0260d5b431a9.js"
+      "static/chunks/pages/events/[...slug]-7fdb2ace5516c52b.js"
     ],
     "/events/[eventId]": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
+      "static/chunks/959-7aba83636184b6ed.js",
       "static/css/b1fd7d69dc6df601.css",
-      "static/chunks/pages/events/[eventId]-df28889ab4ad3bb2.js"
+      "static/chunks/pages/events/[eventId]-376494a2944ed223.js"
     ]
   },
   "ampFirstPages": []

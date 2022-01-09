@@ -162,7 +162,11 @@ function EventsSearch(props) {
 }
 /* harmony default export */ const events_search = (EventsSearch);
 
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(968);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
 ;// CONCATENATED MODULE: ./pages/events/index.js
+
 
 
 
@@ -178,6 +182,17 @@ function AllEventsPage(props) {
     }
     return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
         children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                        children: "All Events"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "description=",
+                        content: "find all good events"
+                    })
+                ]
+            }),
             /*#__PURE__*/ jsx_runtime_.jsx(events_search, {
                 onSearch: findEventsHandler
             }),
@@ -206,6 +221,22 @@ async function getStaticProps() {
 
 "use strict";
 module.exports = require("next/dist/server/denormalize-page-path.js");
+
+/***/ }),
+
+/***/ 8028:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/server/image-config.js");
+
+/***/ }),
+
+/***/ 4957:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head.js");
 
 /***/ }),
 
@@ -297,11 +328,27 @@ module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 
 /***/ }),
 
+/***/ 3018:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/to-base-64.js");
+
+/***/ }),
+
 /***/ 9232:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/utils.js");
+
+/***/ }),
+
+/***/ 968:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
 
 /***/ }),
 
@@ -336,7 +383,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [730,664,990,968], () => (__webpack_exec__(1812)));
+var __webpack_exports__ = __webpack_require__.X(0, [190,664,675,990,968], () => (__webpack_exec__(1812)));
 module.exports = __webpack_exports__;
 
 })();

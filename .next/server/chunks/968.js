@@ -77,7 +77,10 @@ function ArrowRightIcon() {
 // EXTERNAL MODULE: ./components/events/event-item.module.css
 var event_item_module = __webpack_require__(9166);
 var event_item_module_default = /*#__PURE__*/__webpack_require__.n(event_item_module);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(5675);
 ;// CONCATENATED MODULE: ./components/events/event-item.js
+
 
 
 
@@ -96,9 +99,11 @@ function EventItem(props) {
     return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
         className: (event_item_module_default()).item,
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("img", {
+            /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
                 src: '/' + image,
-                alt: title
+                alt: title,
+                width: 240,
+                height: 160
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (event_item_module_default()).content,
