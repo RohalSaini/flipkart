@@ -5,18 +5,18 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/J3KBnJ7KLSZAzOONZtjxq/_buildManifest.js",
-    "static/J3KBnJ7KLSZAzOONZtjxq/_ssgManifest.js",
-    "static/J3KBnJ7KLSZAzOONZtjxq/_middlewareManifest.js"
+    "static/3Jt1jRrZWLmlFb2l2komY/_buildManifest.js",
+    "static/3Jt1jRrZWLmlFb2l2komY/_ssgManifest.js",
+    "static/3Jt1jRrZWLmlFb2l2komY/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
-      "static/chunks/959-7aba83636184b6ed.js",
+      "static/chunks/959-dbdbbd0b4d92202d.js",
       "static/css/eb2ea963bc9ddff4.css",
-      "static/chunks/pages/index-1c55eb910e9b19af.js"
+      "static/chunks/pages/index-90c9a020d212d762.js"
     ],
     "/_app": [
       "static/chunks/webpack-514908bffb652963.js",
@@ -35,25 +35,25 @@
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
-      "static/chunks/959-7aba83636184b6ed.js",
+      "static/chunks/959-dbdbbd0b4d92202d.js",
       "static/css/c4c8097db576a8be.css",
-      "static/chunks/pages/events-cca145863f027df1.js"
+      "static/chunks/pages/events-dcd0f857a3991cee.js"
     ],
     "/events/[...slug]": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
-      "static/chunks/959-7aba83636184b6ed.js",
+      "static/chunks/959-dbdbbd0b4d92202d.js",
       "static/css/7a4bcbdc092f58ec.css",
-      "static/chunks/pages/events/[...slug]-7fdb2ace5516c52b.js"
+      "static/chunks/pages/events/[...slug]-2ee44f482189815e.js"
     ],
     "/events/[eventId]": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-6e4ba497ae0c8a3f.js",
       "static/chunks/main-deb592798b94b511.js",
-      "static/chunks/959-7aba83636184b6ed.js",
+      "static/chunks/959-dbdbbd0b4d92202d.js",
       "static/css/b1fd7d69dc6df601.css",
-      "static/chunks/pages/events/[eventId]-7063020c7cf0cdbe.js"
+      "static/chunks/pages/events/[eventId]-4149802713a0ffd4.js"
     ],
     "/feedback": [
       "static/chunks/webpack-514908bffb652963.js",

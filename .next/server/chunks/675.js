@@ -11,7 +11,7 @@ var __webpack_unused_export__;
 __webpack_unused_export__ = ({
     value: true
 });
-exports["default"] = Image;
+__webpack_unused_export__ = Image;
 var _react = _interopRequireDefault(__webpack_require__(6689));
 var _head = _interopRequireDefault(__webpack_require__(4957));
 var _toBase64 = __webpack_require__(3018);
@@ -551,7 +551,7 @@ function defaultLoader({ root , src , width , quality  }) {
 /***/ 5675:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__(8045)
+/* unused reexport */ __webpack_require__(8045)
 
 
 /***/ })
