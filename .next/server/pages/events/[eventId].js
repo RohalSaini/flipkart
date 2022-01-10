@@ -180,9 +180,13 @@ function EventLogistics(props) {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (event_logistics_module_default()).image,
-                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
                     src: `/${image}`,
-                    alt: imageAlt
+                    alt: imageAlt,
+                    width: 360,
+                    height: 360,
+                    priority: true,
+                    quality: 50
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {

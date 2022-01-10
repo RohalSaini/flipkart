@@ -31,9 +31,20 @@ const handler =(req,res) => {
         message: "Success",
         feedback: newFeedback
     })
-    } else {
+    } else if( req.method === "GET") {
+       const filepath = path.join(process.cwd(),"data","feedback.json")
+       const fileData = fs.readFileSync(filepath);
+       let data = null
+       try {
+        data = JSON.parse(fileData);
+       } catch(error) {
+        data =[];
+       }
+
+        console.log("GET API")
         res.status(200).json({
-            message:"This works"
+            message:"SUCCESS",
+            feedback: data
         })
     }
     

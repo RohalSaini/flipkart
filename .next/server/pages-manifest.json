@@ -1,6 +1,8 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/allfeedback": "pages/allfeedback.js",
+  "/api/[feedbackId]": "pages/api/[feedbackId].js",
   "/api/feedback": "pages/api/feedback.js",
   "/events/[...slug]": "pages/events/[...slug].js",
   "/events/[eventId]": "pages/events/[eventId].js",

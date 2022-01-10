@@ -88,9 +88,13 @@ function EventItem(props) {
     return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
         className: (event_item_module_default()).item,
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("img", {
+            /*#__PURE__*/ jsx_runtime_.jsx(next_image["default"], {
                 src: '/' + image,
-                alt: title
+                alt: title,
+                height: 160,
+                width: 160,
+                priority: true,
+                quality: 50
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                 className: (event_item_module_default()).content,
