@@ -184,8 +184,7 @@ function EventLogistics(props) {
                     src: `/${image}`,
                     alt: imageAlt,
                     width: 310,
-                    height: 310,
-                    layout: "intrinsic"
+                    height: 310
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
